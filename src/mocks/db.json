@@ -1,0 +1,48 @@
+{
+    "stations": [
+        {
+          "id": "1",
+          "name": "Station Alpha",
+          "location": "California, USA",
+          "capacity": "10MW"
+        },
+        {
+          "id": "2",
+          "name": "Station Bravo",
+          "location": "Nevada, USA",
+          "capacity": "15MW"
+        },
+        {
+          "id": "3",
+          "name": "Station Charlie",
+          "location": "New York, USA",
+          "capacity": "20MW"
+        }
+      ],
+    "forecasts": [
+        {
+          "id": "1",
+          "stationId": "1",
+          "date": "2023-09-01",
+          "forecastedOutput": "8MW"
+        },
+        {
+          "id": "2",
+          "stationId": "1",
+          "date": "2023-09-02",
+          "forecastedOutput": "9MW"
+        },
+        {
+          "id": "3",
+          "stationId": "2",
+          "date": "2023-09-01",
+          "forecastedOutput": "14MW"
+        },
+        {
+          "id": "4",
+          "stationId": "2",
+          "date": "2023-09-02",
+          "forecastedOutput": "13MW"
+        }
+      ]
+}
